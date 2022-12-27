@@ -1,0 +1,29 @@
+0. go to folder let's say folder 1  ===> using cd or UI eg: /Desktop/my_project
+
+ ======= git initial flow =======
+
+below step is done only for first time to initialize git:-
+1. git init ===> .git file created, it tracks all files and folder inside folder1
+
+2. create a file or folder as per requirement
+
+3. git add . ===> add all files to git tracking, instead of "." you can write file/folder name.
+4. git commit -m "message xyz" ===>  this confirms/commits your changes from local to git.
+
+below step is done only for first time to make remote:-
+k. git remote add <remote_name> <link> ==> this adds new remote mainly named origin.
+Note:- link is provided by github/gitlab after creating nrw repository
+
+5. git push <remote_name> <branch_name> ===> this push your commited code to git repo (repository) in github/gitlab. 
+
+Note:- "remote_name" mainly "origin", branch name by default "master".
+
+ ====== git clone a new project =======
+
+1. go to repo and copy the https link ====> from code written in green color.
+
+2. In terminal, go to specific folder where you want this repo's code and write following command
+    git clone <https link>
+
+
+
