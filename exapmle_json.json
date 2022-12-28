@@ -1,0 +1,14 @@
+[
+    {
+        "color": "White",
+        "company": [
+            {
+                "car": "skoda",
+                "bike": "Honda"
+            }
+        ]
+    },
+    {
+        "fruit": "Orange"
+    }
+]

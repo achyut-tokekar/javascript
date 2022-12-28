@@ -32,7 +32,29 @@ const detail = {
 
 // Way to access object keys 
 console.log(detail['gender']);
-        OR
+        // OR
 console.log(detail.name);
 
+
+//Array of Arrays
+
+const AoA = [ [ 'name', 'Achyut' ], [ 'gender', 'male' ], [ 'age', 23 ] ];
+console.log('AoA', AoA)
+
+// Array of Objects
+
+const AoO = [
+  {
+    color: "White",
+    company: [ {
+      car: "skoda", 
+      bike: "Honda" 
+    }]
+  },
+  {
+    fruit: "Orange"
+  }
+];
+
+console.log(JSON.stringify(AoO));
 
