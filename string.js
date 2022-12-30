@@ -31,3 +31,9 @@ const token = "Bearer 9898783927364838290746838920746398"
 
 console.log(token.split(" ")[1]);
 
+
+// String interpolation OR string template ==> ` `
+
+const variable = 90;
+
+console.log(`Today I spent ${variable} rupees.`)

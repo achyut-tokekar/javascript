@@ -2,4 +2,6 @@
  *  Important Methods in Array  
  */
 
-// ForEach
+// for...each loop
+
+const arr = [23, true, 67, "Achyut"];
