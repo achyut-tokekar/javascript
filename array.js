@@ -7,20 +7,23 @@
 let arr = [23, true, 67, "Achyut", null];
 
 const toggle = (bool_value) => !bool_value;
+const add = (num_value) => num_value + 5;
+const slice =(str_char) => str_char.slice(1,4)
+const newArr = [ ];
 
-const newArr = [];
 
 arr.forEach( (element) => {
     if( typeof element == 'number' ) {
-        const newEle = element + 5;
+        const newEle = add(element);
         newArr.push(newEle);
     } else if ( typeof element == 'string' ) {
-        const newEle = element.slice(2, 4);
+        const newEle = slice(element);
         newArr.push(newEle);
     } else if ( typeof element == 'boolean' ) {
         const newEle = toggle(element);
         newArr.push(newEle);
-    } else {
+}
+    else {
         newArr.push(element)
     }
 });
