@@ -26,4 +26,7 @@ Note:- "remote_name" mainly "origin", branch name by default "master".
     git clone <https link>
 
 
+====  How to update your code uptoDate ====
+
+
 
