@@ -16,5 +16,12 @@ console.log("Object.keys(obj) = ", Object.keys(obj));
 
 console.log("Object.entries(obj) = ", Object.entries(obj));
 
+//Destructuring
+const obj2 = {
+    name: "abc", 
+    gender: "xyz",
+    mobile_number: 123456789
+};
 
+const { name, gender } = obj2; 
 
