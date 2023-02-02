@@ -9,7 +9,7 @@ function goToSleep() {
 console.log(goToSleep());
 
 /**
- * function with parameters
+ * function with parameters/arguements
  */
 
 function add(a, b) {
@@ -18,7 +18,7 @@ function add(a, b) {
 
 const res = add(2,4);
 
-console.log(res);
+console.log(res); //6
 
 /**
  * ES6 ===> new way to define function called as arrow function
