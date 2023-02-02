@@ -35,7 +35,7 @@ arr.forEach((element) => {
 
 console.log(newArr, "<<<<<<This is updated array!!")
 
-//example 2 of foreach loop
+//example of map loop
 let arr2 = [1, 2, 3, 4, 5, 6];
 
 const newArr2 = arr2.map(ele => ele -= 1)

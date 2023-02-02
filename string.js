@@ -27,13 +27,15 @@ console.log(tmp_var.toString()) // converts any variable to string type
 
 //real time example
 
-const token = "Bearer 9898783927364838290746838920746398"
+const token = "xyz 9898783927364838290746838920746398"
+["xyz", "9898783927364838290746838920746398"]
 
 console.log(token.split(" ")[1]);
 
 
-// String interpolation OR string template ==> ` `
+// String interpolation OR string template ==> ` ` (back ticks)
 
-const variable = 90;
+const variable = 120;
 
-console.log(`Today I spent ${variable} rupees.`)
+console.log(`Today I spent ${variable} rupees and yesterday also I've spent ${variable} rupees`)
+console.log("Today I spent" + variable + "rupees and yesterday also I've spent" + variable + "rupees")

@@ -58,3 +58,9 @@ const AoO = [
 
 console.log(JSON.stringify(AoO));
 
+
+
+
+// const arr4 = ["hjasfgjh","jdgkjhd"]
+
+// const obj = {name: "hjdf", key: "value"}
